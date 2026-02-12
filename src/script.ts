@@ -1,3 +1,3 @@
-export function bootstrap() {
-  console.log('Script carregado com sucesso');
-}
+import { bootstrap } from './modules/basic-types/extensions.js';
+
+export { bootstrap };
